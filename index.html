@@ -4,37 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="theme-color" content="#08298a">
-<title> PLAYER MELQUISEDEC 99.1 FM</title>
+<title> PLAYER | 97.9 FM </title>
 
-<link href="css/style.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="js/lunaradio-animado.js"></script>
+<script src="lunaradio-animado.js"></script>
 <style>
 html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;flex-direction:column;color:#272829;}
 </style>
 </head>
 
 <body>
-<div style="height:100%">
-<button type="button" class="mobile-nav-toggle"><i class="fas fa-bars"></i></button>
-<header id="header">
-<nav class="nav-menu">
-<ul>
-<li><a target="_blank" href="https://play.google.com/store/apps/details?id=turadio"><i class="fab fa-google-play"></i> <span>Descarga nuestra APP</span></a></li>
-<li><a target="_blank" href="https://api.whatsapp.com/send?phone=592233445566&text=Hola, quiciera saber precios sobre la publicidad "><i class="fas fa-bullhorn"></i><span>Publicidad</span></a></li>
-<li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square" alt="Facebook"></i>
-<span>Facebook</span></a></li>
-<li><a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram-square" alt="Instagram"></i>
-<span>Instagram</span></a></li>
-<li><a href="https://api.whatsapp.com/send?phone=AQUI VA NUMERO&text=Hola escucho la radio" target="_blank"><i class="fab fa-whatsapp-square" alt="Whatsapp"></i>
-<span>Whatsapp</span></a></li>
-<li><a target="_blank" href="https://www.tiktok.com/es/"><i class="fab fa-tiktok"></i><span>tiktok</span></a></li>
-</ul>
-</nav>
-</header>
-
-
 <div id="player"></div>
 <script>
 $("#player").lunaradio({
@@ -45,24 +26,24 @@ hightlightcolor: "#000000",
 fontname: "Saira Condensed", 
 googlefont: "Saira+Condensed:wght@100", 
 fontratio: "0.4", 
-radioname: "MELQUISEDEC 99.1 FM", 
+radioname: "Escuchas Ahora", 
 scroll: "true", 
-coverimage: "https://i.postimg.cc/dVKZVYm4/logo-melquisedec.jpg",
+coverimage: "https://i.postimg.cc/Y0nw2BL6/LunaFM.png",
 onlycoverimage: "false",
 coverstyle: "animated",
-usevisualizer: "real", 
+usevisualizer: "false", 
 visualizertype: "2", 
 itunestoken: "1000lIPN", 
 metadatatechnic: "fallback", //fallback (usar para zeno)
 corsproxy: "",
 usestreamcorsproxy: "false",
-streamurl: "https://stream.zeno.fm/xrrhccc886muv",
+streamurl: "https://stream.zeno.fm/8q9rm5nwpfhvv",
 streamtype: "zeno", //soporta: zeno, icecast2, shoutcast2
-idzeno: "xrrhccc886muv",
+idzeno: "8q9rm5nwpfhvv",
 icecastmountpoint: "", 
 shoutcastpath: "",
 shoutcastid: "1", 
-metadatainterval: "26000", 
+metadatainterval: "10000", 
 volume: "100",
 debug: "false",
 autoplay: "true",
@@ -88,12 +69,6 @@ setInterval(reloj, 1000);
 </script>
 </div>
 
-
-<footer style="display:grid;align-content:end">
-<div style="background-color:#222;color:#fff;text-align:center;padding:10px"> 
-&copy; Copyright 2023 - <a href="http://www.google.com">Wilfredo Camico</a> 
-</div>
-</footer>
 
 <script>
 $(".mobile-nav-toggle").click(function(){
